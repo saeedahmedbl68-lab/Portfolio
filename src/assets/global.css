@@ -1,0 +1,44 @@
+/* ===== CSS VARIABLES — TEAL & ROSE THEME ===== */
+:root {
+  /* Core palette */
+  --teal-dark: #0f4c5c;
+  --teal-mid: #0e7490;
+  --teal-bright: #06b6d4;
+  --teal-light: #a5f3fc;
+  --rose-dark: #9f1239;
+  --rose-mid: #e11d48;
+  --rose-bright: #fb7185;
+  --rose-light: #fecdd3;
+  --navy: #0c1a2e;
+  --navy-mid: #112240;
+  --white: #ffffff;
+  --text-dark: #0f172a;
+
+  /* Section backgrounds */
+  --bg-hero: #e0f7fa;
+  --bg-about: #0c1a2e;
+  --bg-skills: #e0f2fe;
+  --bg-projects: #112240;
+  --bg-contact: #fff0f3;
+
+  /* Compatibility aliases */
+  --purple-nav: #0c1a2e;
+  --purple-mid: #0e7490;
+  --purple-light: #a5f3fc;
+  --btn-dark: #9f1239;
+
+  --font-cursive: 'Dancing Script', cursive;
+  --font-main: 'Poppins', sans-serif;
+  --transition: all 0.3s ease;
+  --shadow: 0 8px 32px rgba(14, 116, 144, 0.2);
+}
+
+/* ===== RESET & BASE ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-main); color: var(--text-dark); overflow-x: hidden; }
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--navy); }
+::-webkit-scrollbar-thumb { background: var(--teal-bright); border-radius: 3px; }
