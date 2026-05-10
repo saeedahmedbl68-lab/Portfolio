@@ -336,14 +336,6 @@
   margin: 0 auto 50px;
   line-height: 1.7;
 }
-
-.section-underline-center {
-  width: 50px; height: 3px;
-  background: linear-gradient(90deg, var(--teal-bright), var(--rose-bright));
-  border-radius: 2px;
-  margin: 0 auto 16px;
-}
-
 .skills-grid { 
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
